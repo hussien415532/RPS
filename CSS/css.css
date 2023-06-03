@@ -1,0 +1,53 @@
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background-image: radial-gradient(
+    circle,
+    hsl(214, 47%, 23%),
+    hsl(237, 49%, 15%)
+  );
+}
+.head {
+  outline: hsl(217, 16%, 45%) solid;
+}
+.head img
+{
+  width: 100px;
+}
+.dark-text {
+  color: hsl(229, 25%, 31%);
+}
+.paper,
+.scissors,
+.rock {
+  width: 130px;
+  height: 130px;
+}
+.paper {
+  border: 15px hsl(230, 89%, 65%) solid;
+}
+.rock {
+  border: 15px hsl(349, 70%, 56%) solid;
+}
+.scissors {
+  border: 15px hsl(40, 84%, 53%) solid;
+}
+.rules {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.rules:hover {
+  background-color: rgba(117, 117, 117, 0.342);
+}
+.game-content {
+  height: 400px;
+  width: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+background-size: 300px 300px;
+  background-image: url("/images/bg-triangle.svg");
+  gap:70px;
+
+}
