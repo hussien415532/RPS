@@ -108,7 +108,7 @@ function reload()
 />
 `
 gameContent.style.pointerEvents = "auto";
-gameContent.style.backgroundImage='url("/images/bg-triangle.svg")';
+gameContent.style.backgroundImage='url("images/bg-triangle.svg")';
 let final = document.querySelector('.final');
 final.remove();
 }
