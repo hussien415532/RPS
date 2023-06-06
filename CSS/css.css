@@ -21,6 +21,7 @@ body {
 .rock {
   width: 130px;
   height: 130px;
+  transition: 0.3s;
 }
 .paper {
   border: 15px hsl(230, 89%, 65%) solid;
@@ -47,7 +48,14 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 background-size: 300px 300px;
-  background-image: url("images/bg-triangle.svg");
-  gap:70px;
+  background-image: url("/images/bg-triangle.svg");
+  gap:65px;
 
+}
+.temp
+{
+background-color: rgba(0, 0, 0, 0.418);
+width: 140px;
+height: 140px;
+display: block;
 }
