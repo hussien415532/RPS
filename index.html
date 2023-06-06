@@ -31,33 +31,40 @@
         class="score bg-white py-1 rounded d-flex flex-column align-items-center px-4"
       >
         <p class="fs-3 dark-text text-uppercase fw-bold m-0">score</p>
-        <p class="dark-text display-1 fw-bold m-0">12</p>
+        <p class="score-counter dark-text display-1 fw-bold m-0">0</p>
       </div>
     </div>
 
-    <div class="game-content container text-center position-relative mt-5 p-4 d-flex flex-wrap justify-content-center">
+    <div
+      class="game-content container text-center position-relative mt-5 p-4 d-flex flex-wrap justify-content-center"
+    >
       <img
         src="images/icon-paper.svg"
         alt=""
         class="paper rounded-circle bg-light p-4"
+        data-="paper"
+  
       />
       <img
         src="images/icon-scissors.svg"
         alt=""
         class="scissors rounded-circle bg-light p-4"
+        data-="scissors"
       />
       <img
         src="images/icon-rock.svg"
         alt=""
         class="rock rounded-circle bg-light p-4"
+        data-="rock"
       />
+      
     </div>
-
     <!-- start rules -->
     <div
       class="rules text-light fs-4 fw-light p-1 text-uppercase rounded border btn"
       data-bs-toggle="modal"
       data-bs-target="#rules"
+      data-="rock"
     >
       rules
     </div>
