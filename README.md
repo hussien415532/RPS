@@ -1,3 +1,3 @@
 # RPS
     git clone https://github.com/hussien415532/RPS.git
- <a href="https://github.com/hussien415532/RPS.git"> Play Game</a>
+ <a href="https://hussien415532.github.io/RPS/"> Play Game</a>
